@@ -29,7 +29,7 @@
 
 ## Стек технологий
 
-- Python
+- Python(aiogram, aiohttp, APScheduler, numpy)
 - Docker
 
 ## Лицензия
