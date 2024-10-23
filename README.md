@@ -7,14 +7,13 @@
 1. Клонируйте репозиторий:
     ```bash
     git clone https://github.com/qarasuv/ddbot.git
-    ```
-
-2. Установите зависимости:
-    ```bash
+    cd ddbot
+    python3 -m venv env
+    source env/bin/activate
     pip install -r requirements.txt
     ```
 
-3. Настройте файл `config.py` с вашим API-ключом Telegram.
+3. Добавить файл setenv.sh и настроить файл `config.py` с вашим API-ключом Telegram.
 
 4. Запустите бота:
     ```bash
